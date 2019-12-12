@@ -1,0 +1,105 @@
+/*********** Body ***************/
+
+body {
+    margin: 0 auto;
+    width: 100%;
+}
+
+/********** NAVIGATION **********/
+
+.nav-bar {
+    height: 100px;
+    width: 100%;
+    background-color: pink;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.nav-list {
+    float: right;
+    padding-top: 20px;
+}
+
+.list-item {
+    height: 27px;
+    width: 52px;
+    display: inline-block;
+    color: white;
+    list-style-type: none;
+    margin-right: 40px;
+    padding: 3px;
+    text-align: center;
+    border: 2px dotted gray;
+    border-radius: 10px;
+}
+
+.list-item a {
+    text-decoration: none;
+    color: black;
+}
+
+li:hover {
+    background-color: yellow;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+li a:hover {
+    color: red;
+}
+
+/****** MAIN ********/
+
+.main {
+    height: 300px;
+    width: 100%;
+    background-image: url('../img/tortilla-chips.jpg');
+    background-repeat: no-repeat;
+    margin-top: 100px;
+}
+
+.main-text {
+    height: 80px;
+    width: 100px;
+    background-color: red;
+    position: absolute;
+    top: 174px;
+    left: 742px;
+    text-align: center;
+    margin-top: 17px;
+}
+
+/* SECTION */
+
+.home-section {
+    width: 100%;
+    height: 500px;
+}
+
+.col {
+    height: 450px;
+    width: 46%;
+    border: 1px solid red;
+    float: left;
+    margin-left: 30px;
+}
+
+.sec-txt p {
+    text-align: center;
+    margin: 50px 20px 0px 20px;
+    margin-top: 12px;
+}
+
+/* FOOTER */
+
+.footer {
+    height: 80px;
+    width: 100%;
+    background-color: red;
+}
+
+.button-input, .social, .copy {
+    width: 33.33%;
+    float: left;
+}

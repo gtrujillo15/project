@@ -1,0 +1,45 @@
+/* font-family: 'Muli', sans-serif;
+font-family: 'Lobster', cursive; */
+
+.about-main {
+    height: 800px;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.about-section {
+    width: 30%;
+    height: 700px;
+    float: left;
+    border: 1px solid black;
+    margin-left: 2%;
+}
+
+/* SECTION TEXT/ABOUT */
+
+.lays {
+    display: block;
+    margin: auto;
+}
+
+.about-section p {
+    font-family: 'Lobster', cursive;
+    font-size: 24px;
+    padding: 10px;
+    text-align: center;
+}
+
+/* SECTION AUDIO */
+
+.about-audio {
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
+
+/* SECTION VIDEO */
+
+.about-section iframe {
+    display: block;
+    margin: auto;
+}
